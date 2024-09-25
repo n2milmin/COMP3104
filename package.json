@@ -6,7 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n2milmin/COMP3104-DevOps.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  
+  "homepage": "https://github.com/n2milmin/COMP3104-DevOps#readme"
 }
