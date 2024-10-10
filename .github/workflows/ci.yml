@@ -27,7 +27,8 @@ jobs:
       - name: Run test
         run: npm run test
 
-      - name: Deplot to GitHub Pages
-        run: npm run deploy
+      - name: Deploy to GitHub Pages
+        uses: n2milmin/actions-gh-pages@v4
         env: 
           GITHUB_TOKEN: ${{ secrets.COMP3104_TOKEN }}
+          publish_dir: ./build
